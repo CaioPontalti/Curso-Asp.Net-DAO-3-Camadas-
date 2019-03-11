@@ -1,0 +1,11 @@
+C:\Users\cvalmeida\Documents\Visual Studio 2017\Projects\Curso Asp.Net DAO (3 Camadas)\Model.Neg\obj\Debug\Model.Neg.csprojAssemblyReference.cache
+C:\Users\cvalmeida\Documents\Visual Studio 2017\Projects\Curso Asp.Net DAO (3 Camadas)\Model.Neg\obj\Debug\Model.Neg.csproj.CoreCompileInputs.cache
+C:\Users\cvalmeida\Documents\Visual Studio 2017\Projects\Curso Asp.Net DAO (3 Camadas)\Model.Neg\bin\Debug\Model.Neg.dll
+C:\Users\cvalmeida\Documents\Visual Studio 2017\Projects\Curso Asp.Net DAO (3 Camadas)\Model.Neg\bin\Debug\Model.Neg.pdb
+C:\Users\cvalmeida\Documents\Visual Studio 2017\Projects\Curso Asp.Net DAO (3 Camadas)\Model.Neg\bin\Debug\Model.Dao.dll
+C:\Users\cvalmeida\Documents\Visual Studio 2017\Projects\Curso Asp.Net DAO (3 Camadas)\Model.Neg\bin\Debug\Model.Entity.dll
+C:\Users\cvalmeida\Documents\Visual Studio 2017\Projects\Curso Asp.Net DAO (3 Camadas)\Model.Neg\bin\Debug\Model.Dao.pdb
+C:\Users\cvalmeida\Documents\Visual Studio 2017\Projects\Curso Asp.Net DAO (3 Camadas)\Model.Neg\bin\Debug\Model.Entity.pdb
+C:\Users\cvalmeida\Documents\Visual Studio 2017\Projects\Curso Asp.Net DAO (3 Camadas)\Model.Neg\obj\Debug\Model.Neg.csproj.CopyComplete
+C:\Users\cvalmeida\Documents\Visual Studio 2017\Projects\Curso Asp.Net DAO (3 Camadas)\Model.Neg\obj\Debug\Model.Neg.dll
+C:\Users\cvalmeida\Documents\Visual Studio 2017\Projects\Curso Asp.Net DAO (3 Camadas)\Model.Neg\obj\Debug\Model.Neg.pdb

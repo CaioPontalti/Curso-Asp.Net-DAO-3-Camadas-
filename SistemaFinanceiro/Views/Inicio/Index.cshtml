@@ -1,0 +1,119 @@
+﻿
+@model List<Model.Entity.Venda>
+
+@{
+                /**/
+
+                ViewBag.Title = "Index";
+
+
+}
+<style type="text/css">
+    .panel .panel-heading a {
+        color: white;
+    }
+</style>
+
+<div class="row">
+    <div class="col-lg-3 col-md-6">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <a href="~/Cliente/BuscarClientes">
+                    <div class="row">
+                        <div class="col-xs-12 text-center">
+                            <i class="fa fa-users fa-5x"></i>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 text-center" style="font-size:30px">
+                            <div class="huge"  style="font-size:30px">Clientes</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <a href="~/Cliente/BuscarClientes">
+                <div class="panel-footer">
+                    <span class="pull-left">Clientes</span>
+                    <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                    <div class="clearfix"></div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-6">
+        <div class="panel panel-green">
+            <div class="panel-heading">
+                <a href="~/Produto/BuscarProdutos">
+                    <div class="row">
+                        <div class="col-xs-12 text-center">
+                            <i class="fa fa-tv fa-5x"></i>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 text-center">
+                            <div class="huge"  style="font-size:30px">Produtos</div>
+                        </div>
+                    </div>
+
+                </a>
+            </div>
+            <a href="~/Produto/BuscarProdutos">
+                <div class="panel-footer">
+                    <span class="pull-left">Relatório de Produtos</span>
+                    <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                    <div class="clearfix"></div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-6">
+        <div class="panel panel-yellow">
+            <div class="panel-heading">
+                <a href="~/Venda/NovaVenda">
+                    <div class="row">
+                        <div class="col-xs-12 text-center">
+                            <i class="fa fa-shopping-cart fa-5x"></i>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 text-center">
+                            <div class="huge" style="font-size:30px">Nova Venda</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <a href="~/Venda/VendaFatura">
+                <div class="panel-footer">
+                    <span class="pull-left">Faturas das Vendas</span>
+                    <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                    <div class="clearfix"></div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-6">
+        <div class="panel panel-red">
+            <div class="panel-heading">
+                <a href="~/Vendedor/Index">
+                    <div class="row">
+                        <div class="col-xs-12 text-center">
+                            <i class="fa fa-users fa-5x"></i>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 text-center">
+                            <div class="huge" style="font-size:30px">Vendedores</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <a href="~/Vendedor/Index">
+                <div class="panel-footer">
+                    <span class="pull-left">Lista de Vendedores</span>
+                    <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                    <div class="clearfix"></div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>

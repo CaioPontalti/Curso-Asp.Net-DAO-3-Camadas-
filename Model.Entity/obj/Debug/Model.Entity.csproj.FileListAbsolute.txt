@@ -1,0 +1,6 @@
+C:\Users\cvalmeida\Documents\Visual Studio 2017\Projects\Curso Asp.Net DAO (3 Camadas)\Model.Entity\bin\Debug\Model.Entity.dll
+C:\Users\cvalmeida\Documents\Visual Studio 2017\Projects\Curso Asp.Net DAO (3 Camadas)\Model.Entity\bin\Debug\Model.Entity.pdb
+C:\Users\cvalmeida\Documents\Visual Studio 2017\Projects\Curso Asp.Net DAO (3 Camadas)\Model.Entity\obj\Debug\Model.Entity.csproj.CoreCompileInputs.cache
+C:\Users\cvalmeida\Documents\Visual Studio 2017\Projects\Curso Asp.Net DAO (3 Camadas)\Model.Entity\obj\Debug\Model.Entity.dll
+C:\Users\cvalmeida\Documents\Visual Studio 2017\Projects\Curso Asp.Net DAO (3 Camadas)\Model.Entity\obj\Debug\Model.Entity.pdb
+C:\Users\cvalmeida\Documents\Visual Studio 2017\Projects\Curso Asp.Net DAO (3 Camadas)\Model.Entity\obj\Debug\Model.Entity.csprojAssemblyReference.cache

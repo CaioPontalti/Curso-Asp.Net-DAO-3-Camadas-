@@ -1,0 +1,104 @@
+CREATE PROC sp_CreateCliente(
+@Nome VARCHAR (100),
+@Endereco VARCHAR(100),
+@Telefone VARCHAR(15),
+@CPF VARCHAR(30))
+
+AS
+BEGIN
+
+	INSERT INTO [dbo].[cliente]
+	VALUES (@Nome, @Endereco, @Telefone, @CPF)
+
+END
+
+GO  
+
+CREATE PROC sp_DeleteCliente(
+@IdCliente int)
+
+AS
+BEGIN
+
+	DELETE [dbo].[cliente] WHERE idCliente =  @IdCliente
+	
+END
+
+GO
+
+CREATE PROC sp_FindCliente(
+@idCliente Int)
+
+AS 
+BEGIN
+
+	SELECT
+		idCliente,
+		nome,
+		endereco,
+		telefone,
+		cpf
+	FROM [dbo].[cliente]
+	WHERE idCliente = @idCliente
+
+END 
+
+GO
+
+CREATE PROC sp_FindAllClintes
+
+AS 
+BEGIN
+
+	SELECT
+		idCliente,
+		nome,
+		endereco,
+		telefone,
+		cpf
+	FROM [dbo].[cliente]
+	ORDER BY nome ASC
+
+END 
+
+GO
+
+CREATE PROC sp_UpdateCliente(
+@IdClienteAlte int,
+@Nome VARCHAR (100),
+@Endereco VARCHAR (100),
+@Telefone VARCHAR (20),
+@CPF VARCHAR (20))
+
+AS 
+BEGIN
+
+	UPDATE [dbo].[cliente]
+		SET nome=@Nome,
+			endereco=@Endereco,
+			telefone=@Telefone,
+			cpf=@CPF
+	WHERE idCliente = @IdClienteAlte
+
+END 
+
+GO
+
+CREATE PROC sp_FindClientePorCPF(
+@CPF Int)
+
+AS 
+BEGIN
+
+	SELECT
+		idCliente,
+		nome,
+		endereco,
+		telefone,
+		cpf
+	FROM [dbo].[cliente]
+	WHERE idCliente = @CPF
+
+END 
+
+GO

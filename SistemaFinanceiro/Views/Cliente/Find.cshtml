@@ -1,0 +1,70 @@
+﻿@model Model.Entity.Cliente
+@{
+    ViewBag.Title = Model.Nome;
+}
+
+<ol class="breadcrumb">
+   
+    <li class="active"> <strong>Cliente: </strong>@(Model.Nome)</li>
+
+</ol>
+<div>
+    <div class="row">
+        <div class="container-fluid">
+            <div class="panel panel-default">
+                @*<div class="panel-heading">Informação Pessoal</div>*@
+                <div class="well well-sm text-primary text-center">
+                    <h4> Informações do Cliente </h4>
+                </div>
+                <div class="container">
+
+                    <dl class="dl-horizontal">
+                        <dt>Código:</dt>
+                        <dd>@Model.IdCliente</dd>
+
+                        <dt>Nome:</dt>
+                        <dd>@Model.Nome</dd>
+
+
+                        <dt>CPF:</dt>
+                        <dd>@Model.CPF</dd>
+
+                        <dt>Endereço:</dt>
+                        <dd>@Model.Endereco</dd>
+
+                        <dt>Telefone:</dt>
+                        <dd>@Model.Telefone</dd>
+                    </dl>
+
+                </div>
+
+                @*<table class="table table-hover">
+                <thead>
+                    <tr class="bg-primary">
+                        <th>Código</th>
+                        <th>Nome</th>
+                        <th>CPF</th>
+                        <th>Endereço</th>
+                        <th>Telefone</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+
+                        <td>@Model.IdCliente</td>
+                        <td>@Model.Nome</td>
+                        <td>@Model.CPF</td>
+                        <td>@Model.Endereco</td>
+                        <td>@Model.Telefone</td>
+                    </tr>
+                </tbody>
+
+            </table>*@
+
+            </div>
+            <div class="form-actions">
+                <div style="margin-left:10px">@Html.ActionLink("Voltar a Lista", "Index")</div>
+            </div>
+        </div>
+    </div>
+</div>
